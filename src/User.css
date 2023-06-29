@@ -58,10 +58,11 @@
   margin-top: 1rem;
 }
 
-
+.search-bar{
+  margin-bottom: 5rem;
+}
 .search-icon {  
   margin-left: 4rem; 
   margin-right: 1rem;
-  margin-bottom: 5rem;
 }
 
