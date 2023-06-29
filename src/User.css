@@ -60,5 +60,13 @@
 .first-name {
   margin-top: 1rem;
 }
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  background-color: #f2f2f2;
+}
 
-
+.search-icon {
+  margin-left: 5px;
+}
