@@ -32,6 +32,7 @@ const UserList = () => {
   return (
     <div>
       <div className="search-bar">
+        <FontAwesomeIcon icon={faSearch} className="search-icon" />
         <input 
           className="user-list-input"
           type="text"
@@ -39,9 +40,7 @@ const UserList = () => {
           value={searchTerm}
           onChange={handleSearch}
         />
-        <FontAwesomeIcon icon={faSearch} className="search-icon" />
       </div>
-      <FontAwesomeIcon icon={faSearch} className="search-icon" />
       <div className="user-list">
         {filteredUsers.map((user) => (
           <div key={user.id} className="user-container">
