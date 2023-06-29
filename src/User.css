@@ -60,7 +60,7 @@
 
 .search-bar {
   margin-bottom: 2rem;
-  height: 150px;
+  padding: 0.5rem;
 }
 .search-icon {
   font-size: 2rem;
@@ -68,3 +68,6 @@
   margin-right: 1rem;
 }
 
+.user-list-input{
+  height: 150px;
+}
