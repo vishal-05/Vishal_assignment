@@ -61,7 +61,7 @@
 .search-bar {
   margin-bottom: 2rem;
   padding: 0.5rem;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
 }
 .search-icon {
   font-size: 2rem;
@@ -70,5 +70,5 @@
 }
 
 .user-list-input{
-  height: 50px;
+  height: 45px;
 }
