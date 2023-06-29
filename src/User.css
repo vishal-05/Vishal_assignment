@@ -56,8 +56,12 @@
 .first-name {
   margin-top: 1rem;
 }
-
+.search-bar {
+  padding: 5px;
+  background-color: #f2f2f2;
+}
 
 .search-icon {
+
   margin-left: 2rem; 
 }
