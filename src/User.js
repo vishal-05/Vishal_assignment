@@ -31,13 +31,16 @@ const UserList = () => {
 
   return (
     <div>
-      <input 
-        className="user-list-input"
-        type="text"
-        placeholder="Search by first name"
-        value={searchTerm}
-        onChange={handleSearch}
-      />
+      <div className="search-bar">
+        <input 
+          className="user-list-input"
+          type="text"
+          placeholder="Search by first name"
+          value={searchTerm}
+          onChange={handleSearch}
+        />
+        <FontAwesomeIcon icon={faSearch} className="search-icon" />
+      </div>
       <FontAwesomeIcon icon={faSearch} className="search-icon" />
       <div className="user-list">
         {filteredUsers.map((user) => (
