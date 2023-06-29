@@ -74,3 +74,9 @@
   height: 45px;
   font-size: 1.5rem;
 }
+body {
+  background-image: url('offc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
