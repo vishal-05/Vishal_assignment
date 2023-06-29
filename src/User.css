@@ -62,8 +62,7 @@
 }
 .search-bar {
   display: flex;
-  align-items: center;
-  padding: 1px;
+  padding: 5px;
   background-color: #f2f2f2;
 }
 
