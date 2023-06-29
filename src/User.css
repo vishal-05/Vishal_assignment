@@ -6,6 +6,10 @@
   justify-content: flex-start;
 }
 
+.user-list-input {
+  margin-left: 2rem; 
+  margin-bottom: 2rem;
+}
 
 .user-container {
   display: flex;
@@ -62,6 +66,7 @@
 }
 
 .search-icon {
-
+  
   margin-left: 2rem; 
+  margin-bottom: 2rem;
 }
