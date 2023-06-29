@@ -32,9 +32,8 @@ const UserList = () => {
   return (
     <div>
       <div className="search-bar">
-        
+        <FontAwesomeIcon icon={faSearch} className="search-icon" />
         <input 
-        icon={faSearch}
           className="user-list-input"
           type="text"
           placeholder="Search by first name"
