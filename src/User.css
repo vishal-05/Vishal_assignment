@@ -65,13 +65,13 @@
 }
 
 .search-icon {
-  font-size: 2rem;
+  font-size: 1rem;
   margin-left: 4rem;
   margin-right: 1rem;
 }
 
 .user-list-input{
-  height: 45px;
+  height: 40px;
   font-size: 1.5rem;
   border-radius: 5px;
 }
