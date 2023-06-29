@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './User.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
 const UserList = () => {
   const [users, setUsers] = useState([]);
@@ -36,6 +38,7 @@ const UserList = () => {
         value={searchTerm}
         onChange={handleSearch}
       />
+      <FontAwesomeIcon icon={faSearch} className="search-icon" />
       <div className="user-list">
         {filteredUsers.map((user) => (
           <div key={user.id} className="user-container">
